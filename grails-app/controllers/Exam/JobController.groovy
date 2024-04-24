@@ -14,7 +14,7 @@ class JobController {
     MongoDatastore mongoDatastore
 
     def index() {
-        render "Hello!!"
+        render "Hello!! ...."
     }
 
     def allJobs(){
