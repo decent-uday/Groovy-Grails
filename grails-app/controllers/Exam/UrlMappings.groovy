@@ -33,6 +33,19 @@ class UrlMappings {
             method = "GET"
         }
 
+        "/job/delete" {
+            controller = "Delete"
+            action = "delete"
+            method = "DELETE"
+        }
+
+        "/job/update" {
+            controller = "Update"
+            action = "update"
+            method = "UPDATE"
+        }
+
+
         "/$controller/$action?/$id?(.$format)?"{
             constraints {
                 // apply constraints here
